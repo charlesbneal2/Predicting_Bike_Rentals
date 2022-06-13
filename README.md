@@ -9,7 +9,7 @@
 
 ## Data Overview
 For each listing, we get 17 columns detailing information about the number of bikes rented in a given hour on a given day. Our target variable is "cnt", the number of bikes rented in the given hour.
-![image](https://user-images.githubusercontent.com/97380323/173436594-400bd1a2-4fb6-4680-a3ba-829ea03b5a8c.png)
+![image](https://user-images.githubusercontent.com/97380323/173437182-69087cd1-a781-4fbc-b331-ee7c92939705.png)
 
 ## Feature Selection and Engineering
 I dropped the columns "casual" and "registered", since "cnt" is the sum of these rental categories and this distinction is not relevant to our project.
